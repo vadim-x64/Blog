@@ -768,7 +768,7 @@ article a.infos:hover {
 
     .intro {
         font-size: 64px;
-        margin: 100px auto;
+        margin: 100px 20px;
     }
 
     .intro img {
@@ -858,6 +858,10 @@ article a.infos:hover {
         height: 200px;
     }
 
+    .video-section h1 {
+        font-size: 32px;
+    }
+
     .right-side {
         width: 100%;
         position: static;
@@ -904,20 +908,11 @@ article a.infos:hover {
 
     .footer-container {
         flex-direction: column;
-        align-items: flex-end;
-    }
-
-    .footer-link {
-        font-size: 18px;
+        align-items: center;
     }
 
     .footer-link:hover {
         transform: scaleX(1);
-    }
-
-    .arrow-img {
-        width: 25px;
-        height: 25px;
     }
 
     .back-to-top:hover .arrow-img {
